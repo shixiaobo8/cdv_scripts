@@ -98,7 +98,7 @@ if __name__ == "__main__":
     mp4_domain = "http://mp4-down.yikaobang.com.cn/"
     res = dict()
     clt = init_vod_client('LTAI1aTbTiPWINmZ','bhzSeQhw3vAnZbf9HNcAwHSf4Y0RmL')
-    db_conn = mdb.connect('rm-2ze344l3eokzmxot5.mysql.rds.aliyuncs.com','yxs_root','Yxs@yunwei123','api.letiku.net',unix_socket='/tmp/mysql.sock',charset='utf8')
+    db_conn = mdb.connect('rm-223rrrfsskzmxot5.mysql.rds.aliyuncs.com','232323','232323','232323',unix_socket='/tmp/mysql.sock',charset='utf8')
     cursor = db_conn.cursor()
     sql = "select `exam_id`,`title`,`topic_no`,`videourl`,`point_analysis`,`point_restore`,`option`,`type` from yjy_10_exam_topic"
     try:
