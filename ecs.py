@@ -7,7 +7,7 @@ import logging,json,sys
 from aliyunsdkcore import client
 from aliyunsdkecs.request.v20140526.DescribeInstancesRequest import DescribeInstancesRequest
 from aliyunsdkecs.request.v20140526.DescribeRegionsRequest import DescribeRegionsRequest
-clt = client.AcsClient('LTAInzXTFTOSPbjQ', 'FO6gwOqL5BcD5r3fto51eRLepMaQlE', 'cn-beijing')
+clt = client.AcsClient('LTAIxxxxxQ', 'FOxxxxxxxxxxxxxxxxlExxxx', 'cbw-wewewew')
 
 
 # 停止服务器
